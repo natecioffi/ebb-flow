@@ -12,4 +12,4 @@ It challenges the philosophy that web pages need to have the same limitations of
 He uses the quote to bring up and discuss the rigidity of the web pages of the time. He furthers this idea by opting for web pages to change with the variables that cannot be controlled by the designer such as screen size and resolution. What can be controlled should be the focus: html and the coding of the page. 
 
 
-![image for summary](img/Screenshot_20170305-030513.png)
+![image for summary](img/Untitled-1.jpg)

@@ -13,8 +13,17 @@ body{
 a{
 	color: grey;
 	text-decoration: none;
+	}	
+img .authorimage{
+	width: 16em;
+	height: 16em;
+	}
 h1{
-	margin: 0;
-	text-align: center;
-	font-family: san-serif;
+	display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 	}

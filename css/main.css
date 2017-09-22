@@ -61,6 +61,10 @@ figure.headshot img{
 	text-align: center; 
 	font-size: 1.5em;
 	}
+.logo{
+	width: auto;
+	height: 6em;
+	}
 /*----Typography---*/
 h1{
 	line-height: 1.167em;
@@ -97,7 +101,7 @@ p{
     font-size: 1.125em;
     line-height: 1.667em;
     margin-top: 0em;
-    margin-bottom: 1..5em;
+    margin-bottom: 1.5em;
     margin-left: 0;
     margin-right: 0;
     font-weight: normal;

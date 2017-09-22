@@ -5,25 +5,108 @@ img{
 	height: auto;
 	
 	}
+/*---Section---*/
+html{
+	font-size: 100%;
+	line-height: 1.15;
+	background: #FFFFFF;
+	}
 body{
 	width: 90%;
 	max-width: 60em;
 	margin: 1em auto;
 	}
+
+header{
+	text-align: center;
+	}
+footer{
+	text-align: center;
+	}
+/*----links---*/
 a{
-	color: grey;
+	color: #FF8C00;
 	text-decoration: none;
-	}	
-img .authorimage{
+}
+/*---classes---*/
+figure.headshot{
+	float: left;
 	width: 16em;
 	height: 16em;
+	border: 1em solid #F5F5F5;
+	border-radius: 50%;
+	overflow: hidden;
 	}
+figure.headshot img{
+	
+	max-width: 110%;
+	margin-left: -2&;
+	margin-top: -10%;
+	}
+.byline{
+	font-family: sans-serif;
+    font-size: 1em;
+    margin-top: 0em;
+    margin-bottom: 4em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    text-align: center;
+	}
+.lead-in{
+	text-align: center; 
+	font-size: 1.5em;
+	}
+/*----Typography---*/
 h1{
-	display: block;
+	line-height: 1.167em;
+    font-size: 4em;
+    margin-top: 0.34em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    text-align: center;
+	}
+h2{
+	font-family: helvetica, sans-serif;
     font-size: 2em;
-    margin-top: 0.67em;
+    margin-top: 0.34em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
+    text-align: center;
+	}
+h4{
+	font-family: sans-serif;
+    font-size: 1.5em;
+    margin-top: 0.34em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+	}
+p{
+	display: normal;
+	font-family: Georgia, serif;
+    font-size: 1.125em;
+    line-height: 1.667em;
+    margin-top: 0em;
+    margin-bottom: 1..5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    
+	}
+
+blockquote{
+    font-size: 1.3em;
+    margin-top: 2.0em;
+    margin-bottom: 0.0em;
+    margin-left: 2.5em;
+    margin-right: 0;
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+	color: 696969;
 	}

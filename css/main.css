@@ -21,6 +21,7 @@ header{
 	text-align: center;
 	}
 footer{
+	margin-top: 10em;
 	text-align: center;
 	}
 /*----links---*/
@@ -31,8 +32,8 @@ a{
 /*---classes---*/
 figure.headshot{
 	float: left;
-	width: 16em;
-	height: 16em;
+	width: 8em;
+	height: 8em;
 	border: 1em solid #F5F5F5;
 	border-radius: 50%;
 	overflow: hidden;

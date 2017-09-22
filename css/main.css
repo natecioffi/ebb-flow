@@ -21,6 +21,9 @@ header{
 	text-align: center;
 	}
 footer{
+	padding: 1em;
+	font-size: .5em;
+	background: #F5F5F5;
 	margin-top: 10em;
 	text-align: center;
 	}

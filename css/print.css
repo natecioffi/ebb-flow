@@ -1,0 +1,15 @@
+body{
+	font-size: 75%;
+	width: 7.5in;
+	max-width: none;
+	}
+figure.artwork {
+	max-width: 50%;
+	}
+h2,
+section.author{
+	display: none;
+	}
+footer{
+	display: none;
+	}

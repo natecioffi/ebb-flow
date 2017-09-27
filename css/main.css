@@ -7,7 +7,7 @@ img{
 	}
 /*---layout---*/
 .margin-offset{
-	margin-right: 10%
+	margin-right: 10%;
 	margin-Left: 10%;
 	}
 /*---Section---*/
@@ -55,7 +55,7 @@ a:hover{
 	}
 
 .aba{
-	font: .875/1.714
+	font: .875em/1.714
 	
 	}
 p.name{
@@ -82,7 +82,7 @@ figure.headshot{
 figure.headshot img{
 	
 	max-width: 110%;
-	margin-left: -2&;
+	margin-left: -2;
 	margin-top: -10%;
 	}
 .byline{
@@ -136,7 +136,7 @@ h4{
     font-weight: normal;
 	}
 p{
-	display: normal;
+	
 	font-family: Georgia, serif;
     font-size: 1.125em;
     line-height: 1.667em;
@@ -156,7 +156,7 @@ blockquote{
     margin-right: 0;
     font-weight: bold;
     font-family: helvetica, sans-serif;
-	color: 696969;
+
 	}
 
 

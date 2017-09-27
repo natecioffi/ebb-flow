@@ -5,7 +5,15 @@ img{
 	height: auto;
 	
 	}
+/*---layout---*/
+.margin-offset{
+	margin-right: 10%
+	margin-Left: 10%;
+	}
 /*---Section---*/
+main{
+	margin: 3.5em 0 0;
+	}
 html{
 	font-size: 100%;
 	line-height: 1.15;
@@ -32,18 +40,44 @@ footer{
 a{
 	color: #FF8C00;
 	text-decoration: none;
-}
+	font-weight: lighter;
+	font-style: italic;
+	}
+a:hover{
+	text-decoration: underline;
+	}
+	
 /*---classes---*/
+
+.figureation{
+	font-size: .8em;
+	text-align: right;
+	}
+
+.aba{
+	font: .875/1.714
+	
+	}
+p.name{
+	text-align: left;
+	line-height: 1.333em;
+    font-size: 1.875em;
+    color: #FF8C00;
+    margin-bottom: 0em;
+    margin-top: .1em;
+	}
 h4.jump-links{
 	text-align: center;
 	}
 figure.headshot{
 	float: left;
-	width: 8em;
-	height: 8em;
-	border: 1em solid #F5F5F5;
+	width: 7em;
+	height: 7em;
+	border: .5em solid #F5F5F5;
 	border-radius: 50%;
+	margin: .25em 1em .75em 0;
 	overflow: hidden;
+
 	}
 figure.headshot img{
 	
@@ -64,6 +98,8 @@ figure.headshot img{
 .lead-in{
 	text-align: center; 
 	font-size: 1.5em;
+	margin-right: -10%;
+	margin-left: -10%;
 	}
 .logo{
 	width: auto;
@@ -122,3 +158,16 @@ blockquote{
     font-family: helvetica, sans-serif;
 	color: 696969;
 	}
+
+
+/*----wider screens---*/
+
+@media (min-width:50em) {
+
+figure.headshot{
+	margin-left: 0;
+	}
+div.bio{
+	margin-left: 9.375em;
+	}
+}

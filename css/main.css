@@ -162,7 +162,7 @@ blockquote{
 
 /*----wider screens---*/
 
-@media (min-width:50em) {
+@media (min-width:100em) {
 
 figure.headshot{
 	margin-left: 0;

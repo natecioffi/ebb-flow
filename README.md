@@ -23,3 +23,5 @@ He uses the quote to bring up and discuss the rigidity of the web pages of the t
 [Read the full article](https://alistapart.com/article/dao)
 
 ## About the Author
+---
+![image for summary](img/hero-image-ai.png)

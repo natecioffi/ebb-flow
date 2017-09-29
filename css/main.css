@@ -116,6 +116,7 @@ figure.headshot img{
 	}
 /*----Typography---*/
 h1{
+	font-family: Franklin ITC ,sans-serif
 	line-height: 1.167em;
     font-size: 4em;
     margin-top: 0.34em;
@@ -126,7 +127,7 @@ h1{
     text-align: center;
 	}
 h2{
-	font-family: helvetica, sans-serif;
+	font-family: Franklin ITC,sans-serif
     font-size: 2em;
     margin-top: 0.34em;
     margin-bottom: 0.67em;
@@ -155,7 +156,7 @@ blockquote{
     margin-left: 2.5em;
     margin-right: 0;
     font-weight: bold;
-    font-family: helvetica, sans-serif;
+    font-family: Franklin ITC,sans-serif
 
 	}
 

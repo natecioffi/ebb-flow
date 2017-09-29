@@ -145,25 +145,26 @@ h1{
     margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
 	}
 h2{
 	font-family: Franklin ITC, sans-serif;
     font-size: 1.125em;
-    margin-top: 0.34em;
-    margin-bottom: 0.67em;
+    margin-top: 2.25em;
+    margin-bottom: 0.875em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
     text-align: center;
     color: #ba3925;
+    line-height: 1.75em;
 	}
 p{
 	
 	font-family: Georgia, serif;
     font-size: 1.125em;
-    line-height: 1.667em;
+    line-height: 1.875em;
     margin-top: 0em;
     margin-bottom: 1.5em;
     margin-left: 0;
@@ -176,14 +177,16 @@ blockquote{
 	border-left-color: rgb(191, 191, 191);
 	border-left-style: dotted;
 	border-left-width: 1px;
-    font-size: 1.3em;
+    font-size: 1.125em;
     margin-top: 2.0em;
     margin-bottom: 2em;
-    margin-left: 8.25em;
-    margin-right: 8.25;
+    margin-left: 0em;
+    margin-right: 0;
     padding: 0 .75em;
     font-weight: normal;
     font-family: Georgia, serif;
+    text-align: left;
+    line-height: 1.875;
 
 	}
 

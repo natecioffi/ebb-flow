@@ -104,19 +104,20 @@ figure.headshot img{
 	}
 .byline{
 	font-family: Franklin ITC, sans-serif;
-    font-size: 1.125em;
+    font-size: .875em;
     margin-top: 0em;
     margin-bottom: 4em;
     margin-left: 0;
     margin-right: 0;
     font-weight: normal;
     text-align: center;
+    line-height: 1.375em;
 	}
 .lead-in{
 	text-align: center; 
 	font-size: 1.5em;
-	margin-right: -10%;
-	margin-left: -10%;
+	margin-right: -5%;
+	margin-left: -5%;
 	}
 .logo{
 	width: auto;

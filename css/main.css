@@ -19,7 +19,12 @@ html{
 	line-height: 1.15;
 	background: #FFFFFF;
 	}
+	
 body{
+	margin: 0;
+	}
+	
+.body {
 	width: 90%;
 	max-width: 60em;
 	margin: 1em auto;
@@ -27,27 +32,30 @@ body{
 
 header{
 	text-align: center;
-	background: #F5F5F5;
 	}
 footer{
-	padding: 1em;
+	width: 100%;
 	font-size: .75em;
 	background: #F5F5F5;
 	margin-top: 10em;
 	text-align: center;
+	padding: 2.5em;
 	}
 /*----links---*/
 a{
-	color: #FF8C00;
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight: bold;
 	font-style: italic;
+	color: #2455c3;
 	}
 a:hover{
 	text-decoration: underline;
 	}
 	
 /*---classes---*/
+figure.artwork{
+	margin-top: 10em; 
+	}
 
 .figureation{
 	font-size: .8em;
@@ -62,20 +70,20 @@ h3.name{
 	text-align: left;
 	line-height: 1.333em;
     font-size: 1.530em;
-    color: #FF8C00;
+    
     margin-bottom: 0em;
     margin-top: .1em;
     font-weight: normal;
 	}
 h2.jump-links{
-	text-align: center;
-	font-family: sans-serif;
+	text-align: left;
+	font-family:  sans-serif;
     font-size: 1.5em;
     margin-top: 0.34em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
-    font-weight: normal;
+    font-weight: lighter;
 	}
 
 figure.headshot{
@@ -95,127 +103,43 @@ figure.headshot img{
 	margin-top: -10%;
 	}
 .byline{
-	font-family: /* --- felexable images --- */
-img{
+	font-family: Franklin ITC, sans-serif;
+    font-size: 1.125em;
+    margin-top: 0em;
+    margin-bottom: 4em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: normal;
+    text-align: center;
+	}
+.lead-in{
+	text-align: center; 
+	font-size: 1.5em;
+	margin-right: -10%;
+	margin-left: -10%;
+	}
+.logo{
 	width: auto;
-	max-width: 100%;
-	height: auto;
-	
+	height: 6em;
 	}
-/*---layout---*/
-.margin-offset{
-	margin-right: 10%;
-	margin-Left: 10%;
-	}
-/*---Section---*/
-main{
-	margin: 3.5em 0 0;
-	}
-html{
-	font-size: 100%;
-	line-height: 1.15;
-	background: #FFFFFF;
-	}
-body{
-	width: 90%;
-	max-width: 60em;
-	margin: 1em auto;
-	}
-
-header{
-	text-align: center;
-	background: #F5F5F5;
-	}
-footer{
-	padding: 1em;
-	font-size: .75em;
-	background: #F5F5F5;
-	margin-top: 10em;
-	text-align: center;
-	}
-/*----links---*/
-a{
-	color: #FF8C00;
-	text-decoration: none;
-	font-weight: lighter;
+p.quote-author{
+	font-family: georgia, serif;
+	font-size: .875em;
 	font-style: italic;
-	}
-a:hover{
-	text-decoration: underline;
-	}
-	
-/*---classes---*/
-
-.figureation{
-	font-size: .8em;
-	text-align: right;
-	}
-
-.aba{
-	font: .875em/1.714
-	
-	}
-h3.name{
-	text-align: left;
-	line-height: 1.333em;
-    font-size: 1.530em;
-    color: #FF8C00;
-    margin-bottom: 0em;
-    margin-top: .1em;
-    font-weight: normal;
-	}
-h2.jump-links{
+	line-height: 1.5em;
 	text-align: center;
-	font-family: sans-serif;
-    font-size: 1.5em;
-    margin-top: 0.34em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: normal;
-	}
+	margin-top: .75em;
+	margin-bottom: .75em;
 
-figure.headshot{
-	float: left;
-	width: 7em;
-	height: 7em;
-	border: .5em solid #F5F5F5;
-	border-radius: 50%;
-	margin: .25em 1em .75em 0;
-	overflow: hidden;
-
-	}
-figure.headshot img{
-	
-	max-width: 110%;
-	margin-left: -2%;
-	margin-top: -10%;
-	}
-.byline{
-	font-family: sans-serif;
-    font-size: 1em;
-    margin-top: 0em;
-    margin-bottom: 4em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: normal;
-    text-align: center;
-	}
-.lead-in{
-	text-align: center; 
-	font-size: 1.5em;
-	margin-right: -10%;
-	margin-left: -10%;
-	}
-.logo{
-	width: auto;
-	height: 6em;
 	}
 /*----Typography---*/
+ul{
+	list-style-type: none;
+	}
 h1{
-	font-family: Franklin ITC, sans-serif
+	font-family: Franklin ITC, sans-serif;
 	line-height: 1.167em;
-    font-size: 4em;
+    font-size: 2.25em;
     margin-top: 0.34em;
     margin-bottom: 0em;
     margin-left: 0;
@@ -224,14 +148,15 @@ h1{
     text-align: center;
 	}
 h2{
-	font-family: Franklin ITC, sans-serif
-    font-size: 2em;
+	font-family: Franklin ITC, sans-serif;
+    font-size: 1.125em;
     margin-top: 0.34em;
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
     text-align: center;
+    color: #ba3925;
 	}
 p{
 	
@@ -247,89 +172,17 @@ p{
 	}
 
 blockquote{
+	border-left-color: rgb(191, 191, 191);
+	border-left-style: dotted;
+	border-left-width: 1px;
     font-size: 1.3em;
     margin-top: 2.0em;
-    margin-bottom: 0.0em;
-    margin-left: 2.5em;
-    margin-right: 0;
-    font-weight: bold;
-    font-family: Franklin ITC, sans-serif
-
-	}
-
-
-/*----wider screens---*/
-
-@media (min-width:50em) {
-
-figure.headshot{
-	margin-left: 0;
-	}
-div.bio{
-	margin-left: 9.375em;
-	}
-}
-    font-size: 1em;
-    margin-top: 0em;
-    margin-bottom: 4em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-bottom: 2em;
+    margin-left: 8.25em;
+    margin-right: 8.25;
+    padding: 0 .75em;
     font-weight: normal;
-    text-align: center;
-	}
-.lead-in{
-	text-align: center; 
-	font-size: 1.5em;
-	margin-right: -10%;
-	margin-left: -10%;
-	}
-.logo{
-	width: auto;
-	height: 6em;
-	}
-/*----Typography---*/
-h1{
-	font-family: Franklin ITC, sans-serif
-	line-height: 1.167em;
-    font-size: 4em;
-    margin-top: 0.34em;
-    margin-bottom: 0em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: normal;
-    text-align: center;
-	}
-h2{
-	font-family: Franklin ITC, sans-serif
-    font-size: 2em;
-    margin-top: 0.34em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    text-align: center;
-	}
-p{
-	
-	font-family: Georgia, serif;
-    font-size: 1.125em;
-    line-height: 1.667em;
-    margin-top: 0em;
-    margin-bottom: 1.5em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: normal;
-    
-	}
-
-blockquote{
-    font-size: 1.3em;
-    margin-top: 2.0em;
-    margin-bottom: 0.0em;
-    margin-left: 2.5em;
-    margin-right: 0;
-    font-weight: bold;
-    font-family: Franklin ITC, sans-serif
+    font-family: Georgia, serif;
 
 	}
 

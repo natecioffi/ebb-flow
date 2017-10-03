@@ -68,7 +68,7 @@ figure.artwork{
 	}
 h3.name{
 	text-align: left;
-	line-height: 1.333em;
+	line-height: 1.125em;
     font-size: 1.530em;
     
     margin-bottom: 0em;
@@ -156,7 +156,7 @@ h2{
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #ba3925;
     line-height: 1.75em;
 	}

@@ -196,6 +196,7 @@ blockquote{
 @media (min-width:50em) {
 
 figure.headshot{
+	float: none;
 	margin-left: 0;
 	}
 div.bio{

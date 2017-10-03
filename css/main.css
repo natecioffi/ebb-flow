@@ -6,6 +6,9 @@ img{
 	
 	}
 /*---layout---*/
+h2.margin-offset{
+	align: center;	
+	}
 .margin-offset{
 	margin-right: 10%;
 	margin-Left: 10%;

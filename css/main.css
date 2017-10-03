@@ -150,7 +150,7 @@ h1{
 	}
 h2{
 	font-family: Franklin ITC, sans-serif;
-    font-size: 1.125em;
+    font-size: 1.5em;
     margin-top: 2.25em;
     margin-bottom: 0.875em;
     margin-left: 0;
@@ -163,6 +163,7 @@ h2{
 h2.aba-name{
 	text-align: center;
 	color: black;
+	font-size: 1.125;
 	}
 p{
 	

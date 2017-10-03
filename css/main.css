@@ -6,10 +6,6 @@ img{
 	
 	}
 /*---layout---*/
-h2.margin-offset{
-	align: center;
-	color: black;
-	}
 .margin-offset{
 	margin-right: 10%;
 	margin-Left: 10%;
@@ -163,6 +159,10 @@ h2{
     text-align: left;
     color: #ba3925;
     line-height: 1.75em;
+	}
+h2.margin-offset{
+	align: center;
+	color: black;
 	}
 p{
 	

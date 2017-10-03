@@ -69,11 +69,11 @@ figure.artwork{
 h3.name{
 	text-align: left;
 	line-height: 1.333em;
-   	font-size: 1.125emem;
-    
-    margin-bottom: 0em;
-    margin-top: .1em;
-    font-weight: normal;
+	font-size: 1.125emem;
+	margin-bottom: 0em;
+	margin-top: .1em;
+	font-weight: bold;
+	font-family:sans-serif;
 	}
 h2.jump-links{
 	text-align: left;

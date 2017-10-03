@@ -24,6 +24,8 @@ He uses the quote to bring up and discuss the rigidity of the web pages of the t
 
 ## About the Author
 ![image for summary](img/nate-image.png)
+
 I was born in Boston MA, I grew up in Peabody where I finished high school at Peabody veterans Memorial High school (PVMHS). I then moved beverly for school where I attend Montserrat College of Art. I am in my second year concentrating in graphic design. My intention after receiving my degree is to enter the field of advertising, and study for my Masters of Fine Arts.
+
 ---
 ![image for summary](img/hero-image-ai.png)
